@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost:27017/sqli', {
+mongoose.connect('mongodb+srv://adityasingh:8896202021@cluster0.xfjocql.mongodb.net/sqli', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
