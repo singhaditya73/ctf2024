@@ -6,7 +6,7 @@ function App() {
 
   const handleSearch = async () => {
     try {
-      const response = await fetch('http://localhost:3001/search', {
+      const response = await fetch('http://localhost:3000/api/search', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -48,6 +48,4 @@ function App() {
   );
 }
 
- 
 export default App;
-
